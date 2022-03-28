@@ -45,7 +45,7 @@ nav ul li a {
   color: aliceblue;
 }
 
-.call-to-action {
+.call-to-action a{
   padding: 10px 25px;
   color: aliceblue;
   font-size: 20px;
@@ -54,33 +54,25 @@ nav ul li a {
   border-radius: 80px;
 }
 
+.call-to-action:hover {
+  background-color: #101010;
+  border-color: white;
+}
+
 nav ul li a:hover {
   color: E63E6D;
   transition: 0.7s;
 }
 
-.call-to-action:hover {
-  background-color: #101010;
-  border-color: white;
-  transition: 0.5s;
-}
 
-.intro {
-  padding: 9rem 0;
-}
 
 .name {
   font-size: 4rem;
   margin: 0;
 }
 
-.intro a{
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.intro h3 {
-  margin-bottom: 40px;
+.intro {
+  padding: 9rem 0;
 }
 
 

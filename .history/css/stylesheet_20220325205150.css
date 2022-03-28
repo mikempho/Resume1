@@ -1,0 +1,25 @@
+body{
+  font-family: sans-serif;
+  font-size:110%;
+  background-color: #FCF7F8;
+}
+
+/* Hero Section */
+
+.hero {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  background-color: #343330;
+  text-align: center;
+}

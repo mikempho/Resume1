@@ -62,7 +62,6 @@ nav ul li a:hover {
 .call-to-action:hover {
   background-color: #101010;
   border-color: white;
-  transition: 0.5s;
 }
 
 .intro {

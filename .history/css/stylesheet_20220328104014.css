@@ -54,15 +54,14 @@ nav ul li a {
   border-radius: 80px;
 }
 
-nav ul li a:hover {
-  color: E63E6D;
-  transition: 0.7s;
-}
-
 .call-to-action:hover {
   background-color: #101010;
   border-color: white;
-  transition: 0.5s;
+}
+
+nav ul li a:hover {
+  color: E63E6D;
+  transition: 0.7s;
 }
 
 .intro {
@@ -76,7 +75,6 @@ nav ul li a:hover {
 
 .intro a{
   text-decoration: none;
-  font-weight: 600;
 }
 
 .intro h3 {
