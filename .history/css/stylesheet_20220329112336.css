@@ -129,26 +129,6 @@ footer {
   background-color: #101010;
   color: aliceblue;
   text-align: center;
-}
-
-#contact-info {
-  padding: 2% 7%;
-}
-
-#contact-info ul li {
-  list-style: none;
-  padding: 0px 10px;
-}
-
-#contact-info ul {
-  display: flex;
-  justify-content:center;
+  margin: 0px;
   padding: 0%;
 }
-
-#contact-info i {
-  color: E63E6D;
-  font-size: 30px;
-  margin: 2px 30px;
-}
-

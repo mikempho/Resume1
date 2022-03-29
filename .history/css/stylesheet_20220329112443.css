@@ -132,23 +132,5 @@ footer {
 }
 
 #contact-info {
-  padding: 2% 7%;
+  padding: 4% 7%;
 }
-
-#contact-info ul li {
-  list-style: none;
-  padding: 0px 10px;
-}
-
-#contact-info ul {
-  display: flex;
-  justify-content:center;
-  padding: 0%;
-}
-
-#contact-info i {
-  color: E63E6D;
-  font-size: 30px;
-  margin: 2px 30px;
-}
-

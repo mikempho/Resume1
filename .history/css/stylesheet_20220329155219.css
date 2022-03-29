@@ -143,12 +143,9 @@ footer {
 #contact-info ul {
   display: flex;
   justify-content:center;
-  padding: 0%;
 }
 
 #contact-info i {
   color: E63E6D;
-  font-size: 30px;
-  margin: 2px 30px;
 }
 
