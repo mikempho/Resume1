@@ -21,7 +21,7 @@ span {
 /* header Section */
 .header {
   padding-left:7%;
-  padding-right:7%; 
+  padding-right:7%;
 }
 
 .font-resize {
@@ -33,6 +33,7 @@ span {
   cursor: pointer;
 }
 .navbar {
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -20,8 +20,8 @@ span {
 
 /* header Section */
 .header {
-  padding-left:7%;
-  padding-right:7%; 
+  /* padding-left:7%;
+  padding-right:7%; */
 }
 
 .font-resize {
@@ -33,10 +33,13 @@ span {
   cursor: pointer;
 }
 .navbar {
+  position: fixed;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding-top: 10px;
+  background-color: #181818;
+  width: 100%;
 }
 
 nav ul li{

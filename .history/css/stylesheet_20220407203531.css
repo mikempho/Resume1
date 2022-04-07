@@ -21,7 +21,7 @@ span {
 /* header Section */
 .header {
   padding-left:7%;
-  padding-right:7%; 
+  padding-right:7%;
 }
 
 .font-resize {
@@ -33,10 +33,12 @@ span {
   cursor: pointer;
 }
 .navbar {
+  /* position: fixed; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 10px;
+  /* width: 100%; */
 }
 
 nav ul li{
@@ -83,7 +85,7 @@ nav ul li a:hover {
   align-items: center;
 }
 
-.hero img {
+.hero img, .profile-pic{
   width: 40%;
   height: 40%;
 }
@@ -114,10 +116,6 @@ main {
   text-align: left;
 }
 
-.profile-pic {
-  width: 70%;
-  height: 70%;
-}
 
 #about, #education, #experience {
   padding: 4% 7%;
@@ -186,7 +184,8 @@ padding: 0%;
   justify-content: space-evenly;
 }
 
-/* footer Section */
+/* Footer */
+
 footer {
   text-align: center;
 }

@@ -11,17 +11,17 @@ h2 {
 }
 
 h3 {
-  color: gray;
+  font-weight: 300;
+}
+
+/* Hero Section */
+.header {
+  padding-left:7%;
+  padding-right:7%;
 }
 
 span {
   color: E63E6D;
-}
-
-/* header Section */
-.header {
-  padding-left:7%;
-  padding-right:7%; 
 }
 
 .font-resize {
@@ -33,10 +33,12 @@ span {
   cursor: pointer;
 }
 .navbar {
+  /* position: fixed; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 10px;
+  /* width: 100%; */
 }
 
 nav ul li{
@@ -72,7 +74,6 @@ nav ul li a:hover {
   transition: 0.5s;
 }
 
-/* hero section */
 .intro {
   padding: 9rem 0;
 }
@@ -83,7 +84,7 @@ nav ul li a:hover {
   align-items: center;
 }
 
-.hero img {
+.hero img, .profile-pic{
   width: 40%;
   height: 40%;
 }
@@ -114,16 +115,11 @@ main {
   text-align: left;
 }
 
-.profile-pic {
-  width: 70%;
-  height: 70%;
-}
-
-#about, #education, #experience {
+/* First-main-section */
+.first-main-section, #about {
   padding: 4% 7%;
 }
 
-/* education and experience Section */
 .container {
   padding: 30px;
 }
@@ -141,28 +137,7 @@ main {
   margin-bottom: 70px;
 }
 
-/* interests Section */
-#interests{
-  padding-bottom: 4rem;
-  padding: 30px 0 50px 0;
-}
-
-#interests ul li{
-  list-style: none;
-  padding: 3px;
-  color: grey
-}
-
-#interests ul {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-#interests i{
-  margin-right: 10px;
-}
-
-/* skills Section */
+/* Second-main-section */
 #skills {
   padding: 4% 7%;
   margin-bottom: 70px;
@@ -173,6 +148,11 @@ main {
 #skills img {
   width: 50%;
   height: 90%;
+}
+
+#skills img:hover {
+  width: 60%;
+  height: 100%;
 }
 
 #skills ul li {
@@ -186,7 +166,8 @@ padding: 0%;
   justify-content: space-evenly;
 }
 
-/* footer Section */
+/* Footer */
+
 footer {
   text-align: center;
 }
@@ -200,27 +181,15 @@ footer {
   padding: 0px 10px;
 }
 
-#contact-info ul li{
-  text-align: left;
-  margin-top: 20px;
-  color: grey;
-}
-
-#contact-info .list-icons {
+#contact-info ul {
   display: flex;
-  justify-content: center;
-  margin-top: 40px;
+  justify-content:center;
+  padding: 0%;
 }
 
 #contact-info i {
-  color: grey;
+  color: #313131 ;
   font-size: 30px;
-  margin: 7px 30px;
-  cursor: pointer;
-
+  margin: 2px 30px;
 }
 
-#contact-info i:hover {
-  color: aliceblue;
-  transition: 0.6s;
-}

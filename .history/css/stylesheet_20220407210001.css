@@ -21,7 +21,7 @@ span {
 /* header Section */
 .header {
   padding-left:7%;
-  padding-right:7%; 
+  padding-right:7%;
 }
 
 .font-resize {
@@ -31,12 +31,17 @@ span {
 .resume-logo {
   font-size: 2.5rem;
   cursor: pointer;
+  padding: 30px;
 }
 .navbar {
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 10px;
+  background-color: #181818;
+  width: 100%;
+  right: 1;
 }
 
 nav ul li{
