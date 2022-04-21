@@ -57,12 +57,12 @@ nav ul li a {
   color: aliceblue;
   font-size: 20px;
   border: solid transparent;
-  background-color: #E63E6D;
+  background-color:E63E6D;
   border-radius: 80px;
 }
 
 nav ul li a:hover {
-  color: #E63E6D;
+  color: E63E6D;
   transition: 0.7s;
 }
 
@@ -217,12 +217,10 @@ footer {
   font-size: 30px;
   margin: 7px 30px;
   cursor: pointer;
-  transition:1s;
 
 }
 
 #contact-info i:hover {
   color: aliceblue;
   transition: 0.6s;
-  transform: translateY(-10px)
 }

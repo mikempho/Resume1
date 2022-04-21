@@ -217,12 +217,10 @@ footer {
   font-size: 30px;
   margin: 7px 30px;
   cursor: pointer;
-  transition:1s;
 
 }
 
 #contact-info i:hover {
   color: aliceblue;
   transition: 0.6s;
-  transform: translateY(-10px)
 }
